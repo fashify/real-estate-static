@@ -1,0 +1,41 @@
+/*******************************************************
+ *
+ * General
+ *
+ *******************************************************/
+
+body > img,
+body > iframe[name*="__bkframe"] {
+    display: none;
+}
+
+#ihf-main-container .mc-total-payment-subline {
+    color: #666;
+}
+
+#ihf-main-container .nav-tabs {
+    margin-left: 0;
+}
+
+#ihf-main-container .chosen-drop ul.chosen-results {
+    padding-left: 0;
+    margin: 0;
+}
+
+.ihf-grid-result-address {
+    display: block;
+}
+
+#ihf-main-container #ihf-refine-map-search-form .checkbox,
+#ihf-main-container #ihf-refine-map-search-form .col-xs-8 {
+    padding: 0;
+}
+
+#ihf-agent-sellers-rep > div[style] {
+    max-width: 100%;
+}
+
+#ihf-main-container #ihf-map-canvas {
+    position: relative;
+    z-index: 1;
+}
